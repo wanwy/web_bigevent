@@ -5,7 +5,7 @@ $(function() {
   // 注册退出登录的点击事件（点击按钮实现退出功能）
   $('#btnLogout').on('click',function() {
     // 提示用户是否确认退出
-    layer.confirm('is not?', {icon: 3, title:'提示'}, 
+    layer.confirm('是否退出?', {icon: 3, title:'提示'}, 
     function(index){
       // do something
       // 1. 清除本地存储中的 token
